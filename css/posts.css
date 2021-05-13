@@ -56,11 +56,6 @@
     flex: 2;
 }
 
-p {
-    overflow-wrap: break-word;
-    font-size: 0.8em;
-    text-align: justify;
-}
 
 button {
     border: none;
