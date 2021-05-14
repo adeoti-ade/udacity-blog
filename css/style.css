@@ -1,0 +1,31 @@
+@import url("nav.css");
+@import url("posts.css");
+@import url("post-content.css");
+
+body,
+html {
+    margin: 0;
+    height: auto;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.cover {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(228, 220, 146, 0), rgb(24, 4, 4)), url("../images/bg.jpeg");
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #333
+}
+
+.text button a {
+    text-decoration: none;
+    color: brown;
+}
